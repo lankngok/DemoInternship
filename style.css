@@ -55,6 +55,7 @@
 }
 
 .banner-fixed {
+    background-position: center;
     background-image: url("/bg-flash-sale\ 1.png");
 }
 .img{
@@ -64,9 +65,9 @@
     --color: #f97e6c;
     --position: center bottom;
     --width: 10%;
-    --height: 10px;
+    --height: 8px;
     background: linear-gradient(var(--color), var(--color)) var(--position) / var(--width) var(--height) no-repeat;
-    padding-bottom: 10px;
+    padding-bottom: 8px;
     font: bold 2.5rem sans-serif;
 }
 .sale-price{
@@ -419,3 +420,46 @@ h4 {
 .line-height-0 {
     line-height: unset !important;
 }
+.actived{
+    color: #ecc696 !important;
+    background-color: black;
+    transition: 0.4s;
+}
+/* .actived:hover{
+    color: black !important;
+    background-color: wheat;
+} */
+.btn-cus{
+    /* border: 1px solid black; */
+    color: black !important;
+    padding: 10px 30px !important;
+    /* color: black; */
+}
+.btn-cus:hover{
+    text-decoration: none;
+}
+.btn-grr{
+    margin-left: 30px;
+    width: 70%;
+}
+.m-autoo{
+    margin: 0 auto !important;
+    margin-left: 70px !important;
+}
+.products{
+    margin-top: 2rem;
+}
+.sale{
+    font-size: 18px;
+    font-weight: 700;
+    color: #f97e6c;
+}
+.opcaity{
+    opacity: 0.6;
+    font-weight: 600;
+}
+.card{
+    border: none !important;
+
+}
+
