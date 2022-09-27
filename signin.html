@@ -22,7 +22,59 @@
 </head>
 
 <body>
-    <div class="header">
+<div>
+    <div class="header-blue">
+        <nav class="navbar navbar-dark navbar-expand-md navigation-clean-search">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="https://bizweb.dktcdn.net/100/438/171/themes/836357/assets/logo.png" alt="">
+                </a>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item" role="presentation"><a class="nav-link active" href="index.html">Home</a>
+                        </li>
+                        <li class="dropdown"><a class="dropdown-toggle nav-link dropdown-toggle" data-toggle="dropdown"
+                                aria-expanded="false" href="#">Shop </a>
+                            <div class="dropdown-menu" role="menu">
+                                <a class="dropdown-item" role="presentation" href="shopnam.html">Shop Nam</a>
+                                <a class="dropdown-item" role="presentation" href="shopnu.html">Shop Nu</a>
+                            </div>
+                        </li>
+                        <li class="nav-item" role="presentation"><a class="nav-link active" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item" role="presentation"><a class="nav-link active"
+                                href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item" role="presentation"><a class="nav-link active" href="faq.html">FAQs</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline mr-auto" target="_self">
+                        <div class="form-group">
+                            <label for="search-field">
+                                <i class="fa fa-search"></i>
+                            </label>
+                            <input class="form-control search-field" type="search" name="search" id="search-field">
+                        </div>
+                    </form>
+                    <span class="navbar-text">
+                        <a href="cart.html" class="login"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
+                    </span>
+                    <span class="navbar-text">
+                        <a href="signin.html" class="login">Log In</a>
+                    </span>
+                    <a class="btn btn-light action-button" role="button" href="#">Sign Up</a>
+                </div>
+            </div>
+        </nav>
+
+    </div>
+</div>
+
+    <!-- <div class="header">
         <div class="bg-header p-5">
             <div class="container">
                 <div class="row justify-content-between align-items-center">
@@ -85,7 +137,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- end header -->
     <!-- main -->
     <div class="main p-5">
@@ -236,6 +288,8 @@
             </div>
         </div>
     </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
